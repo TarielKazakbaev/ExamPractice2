@@ -11,6 +11,10 @@ public class Pepperoni extends Pizza{
             System.out.println("Не острый");
             return num;
         }
+        else {
+            System.out.println("По умолчанию идет не острый");
+
+        }
         return num;
     }
 }

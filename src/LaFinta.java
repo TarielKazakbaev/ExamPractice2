@@ -11,6 +11,9 @@ public class LaFinta extends Pizza{
             System.out.println("Без грибов");
             return num;
         }
+        else{
+            System.out.println("По умолчанию идет без грибов");
+        }
         return num;
     }
 }

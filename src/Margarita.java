@@ -11,6 +11,9 @@ public class Margarita extends Pizza{
             System.out.println("Без мяса");
             return num;
         }
+        else {
+            System.out.println("По умолчанию идет без мяса");
+        }
         return num;
     }
 }
